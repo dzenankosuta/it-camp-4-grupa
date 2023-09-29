@@ -1,0 +1,76 @@
+.main {
+  margin: 40px 40px 0px;
+  width: 400px;
+  height: 600px;
+  background-color: #7fffd4;
+  border: 2px solid rgb(0, 1, 44);
+  border-radius: 20px;
+  /* overflow: visible; defaultna vrednost */
+  /* overflow: hidden; sakriva se sadrzaj koji prelazi parent element */
+  /* overflow: scroll; dodaje scrollbar u svakom slucaju */
+  overflow: auto; /* dodaje scrollbar kada je neophodno */
+  /* display: block; */
+  display: inline-block;
+  box-shadow: 3px 3px 12px rgba(31, 25, 25, 0.801);
+}
+
+.main:nth-of-type(2) {
+  display: none;
+}
+
+.ljuljaska {
+  /* visibility: hidden sakriva element i prostor ostaje rezervisan za taj element. */
+  /* visibility: hidden; */
+  /* display: none sakriva element i prostor moze biti iskoriscen narednim elementom. */
+  display: none;
+}
+
+/* Block level html elementi: */
+/* <h1>,<h2>,<h3>,<h4>,<h5>,<h6> */
+/* <p> */
+/* <div>,<main>,<article>,<section>,<header>,<footer> */
+/* <ol>,<ul>,<li> */
+
+/* Inline html elementi: */
+/* <input>,<a>,<span>,<button>,<textarea> */
+/* <img> tag je inline-block element - to su elementi koji dozvoljavaju definisanje sirine  i visine za razliku od inline elemenata. */
+/* <img> */
+
+.main img {
+  width: 400px;
+  height: 200px;
+  /* border-top-left-radius: 20px; */
+  /* border-top-right-radius: 20px; */
+  border-radius: 20px 20px 0px 0px;
+}
+
+.main h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding: 15px 15px 0px 15px;
+}
+
+.main h3 {
+  text-align: justify;
+  text-transform: capitalize;
+  padding: 15px 15px 0px 15px;
+}
+.main p {
+  text-align: justify;
+  text-indent: 25px;
+  text-align-last: right;
+  padding: 0px 15px 15px;
+}
+
+.main:hover {
+  background-color: #ff9f7c;
+}
+
+.main img:hover {
+  content: url(./newimage.jpg);
+}
+
+.third {
+  background-color: rgb(251, 255, 173);
+}

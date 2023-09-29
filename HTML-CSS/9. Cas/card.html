@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>External CSS</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: white;
+      }
+      .page-wrapper {
+        width: 100%;
+        height: 100vh;
+        background-color: #e3f2fd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+      }
+      .card {
+        width: 600px;
+        height: 300px;
+        background-color: rgb(43, 43, 43);
+        border-radius: 30px;
+        padding: 30px 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .card-header {
+        height: 5vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo img {
+        margin-top: 30px;
+        width: 20%;
+      }
+      .chip img {
+        margin-top: 30px;
+        width: 100%;
+      }
+      .card-number {
+        margin-top: 40px;
+      }
+      .card-number h3 {
+        margin-bottom: 7px;
+        font-size: 18px;
+      }
+      .card-number p {
+        font-size: 24px;
+        letter-spacing: 4px;
+      }
+      .card-footer {
+        height: 5vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .card-footer h3 {
+        font-size: 24px;
+        letter-spacing: 3px;
+      }
+      .card-footer p {
+        font-size: 24px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="card">
+        <div class="card-header">
+          <div class="logo">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/772px-Mastercard-logo.svg.png"
+            />
+          </div>
+          <div class="chip">
+            <img
+              src="https://cdn.iconscout.com/icon/premium/png-256-thumb/credit-card-chip-1522262-1288452.png"
+            />
+          </div>
+        </div>
+
+        <div class="card-number">
+          <h3>Card Number</h3>
+          <p>8050 5040 2030 3020</p>
+        </div>
+
+        <div class="card-footer">
+          <h3>Prem Kumar Shahi</h3>
+          <div>
+            <span>Valid Thru</span>
+            <p>05/28</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

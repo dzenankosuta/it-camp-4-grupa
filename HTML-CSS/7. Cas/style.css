@@ -1,0 +1,36 @@
+body {
+  background-color: #f5f5dc;
+}
+
+.main {
+  width: 500px;
+  height: 500px;
+  background-color: #98bcff;
+  /* border: 3px dashed black; */
+  /* border: 3px dotted black; */
+  /* border: 3px double black; */
+  /* margin: 50px; margina u odnosu na sve cetri strane */
+  border: 3px solid black;
+  margin-top: 30px; /* margina u odnosu na gornji element */
+  margin-right: 30px; /* margina u odnosu na desnu stranu */
+  margin-bottom: 10px; /* margina u odnosu na donji element */
+  margin-left: 20px; /* margina u odnosu na levu stranu */
+  margin: 50px 40px 30px 20px; /* top, right, bottom, left */
+  margin: 50px 20px; /* top & bottom, right & left */
+  margin: 50px 20px 35px; /* top, right & left, bottom */
+  margin: 30px auto; /* auto - podjednako udaljen element od leve i desne strane */
+
+  padding: 10px 25px;
+  /* border-radius: 10px; */
+  /* border-radius: 10px 5px 15px 0px; */
+  border-bottom-left-radius: 10px;
+}
+.second {
+  /* width: 500px; */
+  /* height: 500px; */
+  background-color: #c9e6a6;
+}
+
+.main p {
+  text-align: justify;
+}

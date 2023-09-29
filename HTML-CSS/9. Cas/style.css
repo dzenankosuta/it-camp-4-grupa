@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.first {
+  width: 400px;
+  height: 400px;
+  background-image: url("https://img.freepik.com/premium-photo/abstract-black-textured-background-with-scratches_130265-12474.jpg");
+  /* background-repeat: repeat; defaultna vrednost */
+  background-repeat: no-repeat;
+  /* background-size: contain; razvlaci se fotografija do momenta dok ne stigne do prve ivice. */
+  /* background-size: cover; razvlaci se fotografija kako bi prekrila ceo kontejner (gubi se deo fotografije). */
+  background-size: 300px 400px;
+  background-size: 100% 100%;
+  overflow: auto;
+}
+
+.first h1,
+p {
+  color: #f0f8ff;
+}
+
+.first h1 {
+  text-align: center;
+}
+
+.first p {
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+
+.first:nth-of-type(2) {
+  padding: 15px;
+}
