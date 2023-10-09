@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+.container {
+  /* width: 400px;
+  height: 400px; */
+  /* width: 20cm;
+  height: 20cm; */
+  /* width: 200mm;
+  height: 200mm; */
+  /* width: 5in;
+  height: 5in; */
+  /* width: 500pt;
+  height: 500pt; */
+  /* width: 50pc;
+  height: 50pc; */
+  /* width: 100vw;
+  height: 40vw; */
+  /* width: 50vh;
+  height: 100vh; */
+  /* width: 50vmin;
+  height: 100vmin; */
+  width: 50vmax;
+  height: 100vmax;
+  background-color: #9cffde;
+  border: 1px solid black;
+  float: left;
+  font-size: 20px;
+}
+
+.container p {
+  /* font-size: 2em; */
+  font-size: 2rem;
+}
+
+/* .container:nth-of-type(2),
+.container:nth-of-type(4) {
+  background-color: #ffe4c4;
+} */
+
+/* stilovi za parne elemente */
+/* .container:nth-of-type(even) {
+  background-color: #ffe4c4;
+} */
+
+/* stilovi za neparne elemente */
+/* .container:nth-of-type(odd) {
+  background-color: #ffe4c4;
+} */
+
+/* stilovi za svaki 3 element */
+.container:nth-of-type(3n) {
+  background-color: #ffe4c4;
+}
+
+.container:nth-last-of-type(1) {
+  background-color: #ff0000;
+}
+
+.second {
+  background-color: #ffb3b3;
+  width: 80%;
+  height: 50%;
+}
+
+/* Apsolutne velicine: */
+/* px - pixels */
+/* cm - centimeters */
+/* mm - millimeters */
+/* in - inches (1in = 96px) */
+/* pt - points (1pt = 1/72 in) */
+/* pc - picas (1pc = 12pt) */
+
+/* Relativne velicine */
+/* em - relativna u odnosu na font-size elementa */
+/* rem - relativna u odnosu na font-size root elementa */
+/* vw - relativna je 1% u odnosu na sirinu ekrana */
+/* vh - relativna je 1% u odnosu na visinu ekrana */
+/* vmin - relativna je 1% u odnosu na manju dimenziju */
+/* vmax - relativna je 1% u odnosu na vecu dimenziju */
+/* % - relativna u odnosu na parent element */
