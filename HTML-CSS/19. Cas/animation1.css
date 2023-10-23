@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.parent {
+  margin: auto;
+  background-color: #2b2c72;
+  width: 500px;
+  height: 500px;
+}
+
+.child {
+  width: 50%;
+  height: 50%;
+  background-color: #8f3232;
+  /* transition: all 1s cubic-bezier(0, 0.75, 0.65, 2.05) 1s; transition se odnosi na sva css svojstva */
+  transition: transform 1s cubic-bezier(0, 0.75, 0.65, 2.05),
+    background-color 3s cubic-bezier(0, 0.75, 0.65, 2.05);
+  /* transition-property: transform; */
+  /* transition-duration: 1s; */
+  /* transition-timing-function: ease-in-out; */
+  /* transition-delay: 1s; */
+}
+
+.parent:hover .child {
+  transform: translateX(100%); /* - transformacija po X osi */
+  /* transform: translateY(100%); - transformacija po Y osi */
+  /* transform: translate(100%, 100%); - transformacija po X i Y osi */
+  /* transform: scale(1.2); - povecanje elementa  */
+  /* transform: scale(0.8); - smanjenje elementa  */
+  /* transform: scale(0.8, 1.2); - promena po sirini (visini) */
+  background-color: antiquewhite;
+}
