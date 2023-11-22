@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  box-shadow: 1px 0px 15px black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.459);
+  color: #124265;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: #124265;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.btn {
+  margin-left: 30px;
+  height: 30px;
+  width: 100px;
+  background-color: #2487ce;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: #124265;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  height: 100px;
+  margin-top: auto;
+  background-color: #f8fbfe;
+  padding: 0px 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+main {
+  padding: 40px 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.slika1 {
+  height: 500px;
+  width: 650px;
+}
+
+.slika {
+  width: 120px;
+}
+
+.check {
+  color: #2487ce;
+}
+
+.txt {
+  color: #444444;
+}
+
+.txth4 {
+  font-weight: 200;
+  color: #444444;
+}

@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 90px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.header p {
+  color: #124265;
+  font-size: 35px;
+  margin-left: 150px;
+  position: relative;
+  top: 26px;
+  color: #124265;
+}
+
+.linkovi {
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 170px;
+}
+
+.linkovi a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #124265;
+}
+
+.button {
+  background-color: #2487ce;
+  width: 120px;
+  height: 40px;
+  color: white;
+  border-color: #2487ce;
+  position: relative;
+  bottom: 10px;
+  border-radius: 10px;
+}
+
+.slika {
+  height: 400px;
+  float: left;
+  margin-left: 150px;
+  margin-top: 80px;
+}
+
+.footer {
+  height: 120px;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8fbfe;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sponzorii {
+  height: 50px;
+}
+
+.tekst {
+  margin-top: 70px;
+  margin-right: 110px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.tekst h1 {
+  color: #444444;
+  float: right;
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.ikona {
+  color: #2487ce;
+}
+
+.lorem {
+  font-size: 18px;
+}
+
+.text {
+  font-size: 16px;
+}

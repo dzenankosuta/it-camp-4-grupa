@@ -1,0 +1,189 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.parent {
+  position: relative;
+  height: 950px;
+  width: 500px;
+  color: white;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  background-color: rgb(255, 255, 255);
+  height: 75px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  z-index: 10;
+  justify-content: space-between;
+}
+
+.logo1 {
+  top: 20px;
+  position: absolute;
+  left: 200px;
+  color: rgb(44, 158, 158);
+}
+
+.Home {
+  position: absolute;
+  top: 20px;
+  left: 750px;
+  text-decoration: none;
+}
+
+.About {
+  position: absolute;
+  top: 20px;
+  left: 850px;
+}
+
+.Services {
+  position: absolute;
+  top: 20px;
+  left: 950px;
+}
+
+.Portfolio {
+  position: absolute;
+  top: 20px;
+  left: 1075px;
+}
+
+.Team {
+  position: absolute;
+  top: 20px;
+  left: 1200px;
+}
+
+.Pricing {
+  position: absolute;
+  top: 20px;
+  left: 1300px;
+}
+
+.Dragdown {
+  position: absolute;
+  top: 20px;
+  left: 1400px;
+}
+
+.Contact {
+  position: absolute;
+  top: 20px;
+  left: 1565px;
+  color: rgb(84, 209, 209);
+}
+
+.Button {
+  position: absolute;
+  top: 15px;
+  left: 1680px;
+  size: 100px;
+  height: 45px;
+  width: 100px;
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.Slika1 {
+  position: relative;
+  height: 600px;
+  width: 800px;
+  top: 105px;
+  left: 200px;
+}
+
+.tekst1 {
+  position: absolute;
+  bottom: 300px;
+  font-size: large;
+  margin-top: 20px;
+  font-size: 30px;
+  left: 1050px;
+  color: darkcyan;
+  top: 150px;
+}
+
+.tekst2 {
+  position: absolute;
+  top: 300px;
+  font-size: 23px;
+  left: 1050px;
+}
+
+.tekst3 {
+  position: absolute;
+  top: 375px;
+  left: 1050px;
+  font-size: 20px;
+}
+
+.tekst4 {
+  position: absolute;
+  top: 425px;
+  left: 1050px;
+  font-size: 20px;
+}
+
+.tekst5 {
+  position: absolute;
+  top: 475px;
+  left: 1050px;
+  font-size: 20px;
+}
+
+.tekst6 {
+  position: absolute;
+  top: 525px;
+  left: 1050px;
+  font-size: 23px;
+}
+
+footer {
+  background-color: gray;
+}
+
+.sponzor1 {
+  position: absolute;
+  top: 850px;
+  height: 75px;
+  width: 150px;
+  left: 250px;
+}
+
+.sponzor2 {
+  position: absolute;
+  top: 845px;
+  height: 70px;
+  width: 200px;
+  left: 475px;
+}
+
+.sponzor3 {
+  position: absolute;
+  top: 845px;
+  height: 100px;
+  width: 200px;
+  left: 780px;
+}
+
+.sponzor4 {
+  position: absolute;
+  top: 845px;
+  height: 100px;
+  width: 250px;
+  left: 1120px;
+}
+
+.sponzor5 {
+  position: absolute;
+  top: 845px;
+  height: 100px;
+  width: 275px;
+  left: 1450px;
+}

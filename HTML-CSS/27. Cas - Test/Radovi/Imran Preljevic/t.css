@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #444444;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+.ul {
+  color: #47536e;
+}
+.navbar ul li {
+  margin-left: 50px;
+}
+
+.navbar button {
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #2487ce;
+  color: #fff;
+}
+.gospodja {
+  height: 500px;
+  margin-left: 75px;
+  margin-top: 50px;
+}
+.naslov {
+  color: #47536e;
+}
+h1 {
+  color: #175078;
+}
+ul li :hover {
+  color: #5777ba;
+}
+.slika {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  margin-right: 300px;
+}
+
+.text {
+  margin: 30px;
+}
+h2 {
+  color: #444444;
+}
+.footer {
+  background-color: #f8fbfe;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  height: 50px;
+}

@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  width: 100%;
+  height: 12vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 20px grey;
+}
+.container {
+  width: 80vw;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: #124265;
+}
+a.logo {
+  font-size: 40px;
+  font-weight: 100;
+}
+.linkovi {
+  width: 45vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  width: 120px;
+  height: 40px;
+  background-color: #2487ce;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.main {
+  min-height: 80vh;
+  width: 100vw;
+}
+.main-container {
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-left: 10vw;
+  margin-top: 100px;
+}
+.slika {
+  width: 48vw;
+  height: 70vh;
+}
+.glavna-slidza {
+  width: inherit;
+  height: inherit;
+}
+.tekst-stranice {
+  width: 38vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+li {
+  text-decoration: none;
+}
+i {
+  color: #2487ce;
+}
+.footer {
+  width: 100vw;
+  height: 20vh;
+  background-color: #f8fbfe;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.footer-container {
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sponzor {
+  width: 7vw;
+  height: 7vh;
+}
+.sponzor1 {
+  width: 7vw;
+  height: 7vh;
+  margin-top: 15px;
+}

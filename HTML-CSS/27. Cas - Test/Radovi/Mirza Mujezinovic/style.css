@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+header {
+  height: 10vh;
+  padding-left: 8%;
+  padding-right: 8%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+  background-color: rgb(255, 255, 255);
+}
+p {
+  color: #444444;
+}
+header ul {
+  display: flex;
+  list-style-type: none;
+  gap: 25px;
+  font-size: 19px;
+  text-decoration: none;
+}
+.lol {
+  display: flex;
+}
+header .logo a {
+  text-decoration: none;
+}
+header h1 {
+  color: #124265;
+}
+header ul li a {
+  text-decoration: none;
+  color: #124265;
+}
+header ul li a:hover {
+  color: purple;
+}
+.desno {
+  display: flex;
+  justify-content: flex-end;
+}
+.desno .dugme a {
+  /* margin-left: 20px; */
+  font-size: 23px;
+  text-decoration: none;
+}
+.dugme {
+  display: flex;
+  border: 1px solid black;
+  margin-left: 20px;
+  /* width: 120px; */
+  /* height: 50px; */
+  background-color: #2487ce;
+  padding: 3px;
+  border-radius: 2px;
+}
+.dugme a p {
+  color: white;
+  text-decoration: none;
+}
+main {
+  padding-left: 8%;
+  padding-right: 8%;
+  /* display: flex; */
+  height: 70vh;
+}
+main .slika img {
+  margin-top: 60px;
+}
+.main {
+  display: flex;
+}
+
+main .naslov {
+  margin-top: 60px;
+  margin-left: 30px;
+}
+main .naslov h1 {
+  color: #124265;
+}
+main .naslov p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+main .naslov p i {
+  margin-right: 10px;
+}
+main .naslov .dole {
+  margin-top: 100px;
+}
+footer {
+  padding-left: 8%;
+  padding-right: 8%;
+  height: 20vh;
+  background-color: #f8fbfe;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
