@@ -18,6 +18,13 @@ console.log(paragraf.innerHTML);
 //  2. $ (dolar znakom)
 //  3. _ (donjom crtom)
 
+// Promenljive od vise reci:
+
+// nas brat = "Demir" Nije ispravan nacin
+// nas_brat = "Demir" Snake Case
+// NasBrat = "Demir"  Upper Camel Case
+nasBratDobri = "Demir"; // Lower Camel Case
+
 // Napomena. U nazivu promenljive (varijable) se moze naci broj, ali ona ne sme poceti brojem.
 
 amir = "Amir je odlican ucenik druge godine srednje skole.";
