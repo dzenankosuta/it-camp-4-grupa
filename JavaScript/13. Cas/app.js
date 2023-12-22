@@ -10,7 +10,8 @@ const d = +prompt("Unesite duzinu terena: ");
 const s = +prompt("Unesite sirinu terena: ");
 const r = +prompt("Unesite rastojanje: ");
 
-console.log(d + s + d + s);
+obimTerena = 2 * d + 2 * s;
+obimOgrade = obimTerena + 8 * r;
 
 // 2.
 // Korisnik unosi broj iz intervala [12,16).
